@@ -1,0 +1,12 @@
+diff -rupN swfmill-0.3.3.orig/src/swft/swft_import_ttf.cpp swfmill-0.3.3/src/swft/swft_import_ttf.cpp
+--- swfmill-0.3.3.orig/src/swft/swft_import_ttf.cpp	2013-10-30 21:33:35.000000000 +0400
++++ swfmill-0.3.3/src/swft/swft_import_ttf.cpp	2014-09-24 23:27:01.000000000 +0400
+@@ -14,7 +14,7 @@
+ #include FT_OUTLINE_H
+ #include "SWFShapeMaker.h"
+ 
+-#include <freetype/tttables.h>
++#include <tttables.h>
+ 
+ using namespace SWF;
+ 
